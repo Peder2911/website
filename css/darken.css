@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/* Overriding default colors in Skeleton CSS framework */
+/* Colors from https://en.wikipedia.org/wiki/Tango_Desktop_Project#Palette */
+/* Body */
+/* Brogrammer colors  */
+/*$white2: #FFFFFF */
+body {
+  line-height: 1.3;
+  font-weight: 200;
+  font-family: "Roboto", sans-serif;
+  color: #d3d7cf;
+  background: #131313;
+}
+
+/* Links */
+a {
+  color: #5350B9;
+}
+
+a:hover {
+  color: #eeeeec;
+}
+
+/* Buttons */
+.button,
+button,
+input[type=submit],
+input[type=reset],
+input[type=button] {
+  color: #d3d7cf;
+  border: 1px solid #babdb6;
+}
+
+.button:hover,
+button:hover,
+input[type=submit]:hover,
+input[type=reset]:hover,
+input[type=button]:hover,
+.button:focus,
+button:focus,
+input[type=submit]:focus,
+input[type=reset]:focus,
+input[type=button]:focus {
+  color: #eeeeec;
+  border: 1px solid #eeeeec;
+}
+
+.button.button-primary,
+button.button-primary,
+input[type=submit].button-primary,
+input[type=reset].button-primary,
+input[type=button].button-primary {
+  color: #131313;
+  background-color: #fcaf3e;
+  border-color: #fcaf3e;
+}
+
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type=submit].button-primary:hover,
+input[type=reset].button-primary:hover,
+input[type=button].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type=submit].button-primary:focus,
+input[type=reset].button-primary:focus,
+input[type=button].button-primary:focus {
+  color: #131313;
+  background-color: #f57900;
+  border-color: #f57900;
+}
+
+/* Forms */
+input[type=email],
+input[type=number],
+input[type=search],
+input[type=text],
+input[type=tel],
+input[type=url],
+input[type=password],
+textarea,
+select {
+  background-color: #131313;
+  border: 2px solid #babdb6;
+}
+
+input[type=email]:focus,
+input[type=number]:focus,
+input[type=search]:focus,
+input[type=text]:focus,
+input[type=tel]:focus,
+input[type=url]:focus,
+input[type=password]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #fcaf3e;
+}
+
+/* Code */
+code {
+  color: #D6DBE5;
+  background: #555753;
+  border: #555753;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 1000;
+}
+
+/* Tables */
+td {
+  border-bottom: 1px solid #eeeeec;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  color: #1DD361;
+}
+
+h4 {
+  color: #1081D6;
+}
+
+/* ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ */
+/* ¤ Custom elements ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ */
+.card {
+  border-style: solid;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  background: #D6DBE5;
+  margin: 10px;
+}
+
+.grid {
+  display: grid;
+  align-items: stretch;
+  grid-auto-columns: max-content, max-content;
+  grid-auto-rows: max-content;
+}
+
+/*# sourceMappingURL=darken.css.map */

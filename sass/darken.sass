@@ -1,0 +1,173 @@
+/* Overriding default colors in Skeleton CSS framework */
+/* Colors from https://en.wikipedia.org/wiki/Tango_Desktop_Project#Palette */
+
+/* Body */
+
+$light1: #d3d7cf
+
+$gray1: #eeeeec
+$gray2: #d3d7cf
+$gray3: #babdb6 
+$gray4: #555753
+
+$dark1: #000080
+
+$purple: #729fcf
+
+$orange1: #fcaf3e
+$orange2: #f57900
+
+$white: #fff
+
+/* Brogrammer colors 
+$dark1: #131313
+$white: #D6DBE5
+/*$white2: #FFFFFF
+
+$red: #DE352E
+$green: #1DD361
+
+$yellow: #2B2E39
+$purple: #5350B9
+
+$blue1: #1081D6
+$blue2: #0F7DDB
+
+$roboto: 'Roboto', sans-serif
+$roboto_mono: 'Roboto Mono', monospace 
+
+body 
+    line-height: 1.3
+    font-weight: 200
+    font-family: $roboto
+    color: $light1
+    background: $dark1
+
+
+/* Links */
+
+a 
+    color: $purple
+
+a:hover 
+    color: $gray1 
+
+
+/* Buttons */
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] 
+    color: $gray2 
+    border: 1px solid $gray3 
+
+
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus 
+    color: $gray1
+    border: 1px solid $gray1
+
+
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary 
+    color: $dark1 
+    background-color: $orange1 
+    border-color: $orange1 
+
+
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus 
+    color: $dark1 
+    background-color: $orange2 
+    border-color: $orange2
+
+
+/* Forms */
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select 
+    background-color: $dark1 
+    border: 2px solid $gray3
+
+
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus 
+    border: 1px solid $orange1
+
+
+/* Code */
+
+code 
+    color: $white 
+    background: $gray4 
+    border: $gray4 
+    font-family: $roboto_mono
+    font-weight: 1000
+
+/* Tables */
+
+td 
+    border-bottom: 1px solid $gray1
+
+/* Headings */
+
+h1,h2,h3,h4
+    font-family: $roboto_mono
+h1
+    color: $green
+h4
+    color: $blue1
+
+/* ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ */
+/* ¤ Custom elements ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ */
+
+.card
+    border-style: solid
+    width: fit-content
+    height: fit-content
+    padding: 10px
+    background: $white
+    margin: 10px
+
+.grid
+    display: grid
+    align-items: stretch
+    grid-auto-columns: max-content, max-content 
+    grid-auto-rows: max-content 
+
+
